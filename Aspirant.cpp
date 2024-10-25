@@ -45,8 +45,8 @@ Aspirant& Aspirant::operator=(const Aspirant& other) {
     return *this;
 }
 
-void Aspirant::print() {
-    Student::print();
+void Aspirant::display() {
+    Student::display();
     std::cout << "Тема дисертації: " << dissertationTopic << "\n";
     std::cout << "Ім'я наукового керівника: " << supervisorName << "\n";
 }

@@ -18,5 +18,5 @@ public:
 
     Aspirant& operator=(const Aspirant& other);
 
-    void print();
+    void display();
 };

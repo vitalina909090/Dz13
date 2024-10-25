@@ -19,7 +19,7 @@ public:
     Student(int* marksArray, int count, const char* studentName, const char* studentDate, const char* studentTelephone, const char* studentCity, const char* studentCountry, const char* Academy, const char* Academy_city_country, int Number);
 
     virtual ~Student();
-    virtual void print();
+    virtual void display();
 
     Student(const Student& other);
     Student& operator=(const Student& other);

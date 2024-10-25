@@ -278,6 +278,6 @@ void Student::setNumber(int Number) {
     number = Number;
 }
 
-void Student::print() {
+void Student::display() {
     cout << "Ім'я: " << getName() << "\n" << "Дата народження: " << getDate() << "\n" << "Номер телефону: " << getTelephone() << "\n" << "Місто: " << getCity() << "\n" << "Країна: " << getCountry() << "\n" << "Назва академії: " << getAcademy() << "\n" << "Місто і країна (академії): " << getAcademy_city_country() << "\n" << "Номер групи: " << getNumber() << endl;
 }

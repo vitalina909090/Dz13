@@ -22,12 +22,12 @@ int main()
         cout << stdnt2.getMark(i) << "  ";
     }
     cout << "\n" << stdnt2.getAver() << "\n";
-    stdnt2.print();
+    stdnt2.display();
 
     cout << endl;
     Aspirant aspirant1(marks, count, "Ìèõàéëî Ó.Å.", "12/09/2001", "94324562", "Ğ³âíå", "Óêğà¿íà",
         "ØÀÃ", "Ğ³âíå/Óêğà¿íà", 34, "Òåõíîëîã³¿ øòó÷íîãî ³íòåëåêòó", "²âàí³øèíà Ìàğèíà Şğ³¿âíà");
 
-    aspirant1.print();
+    aspirant1.display();
     return 0;
 }
